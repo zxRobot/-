@@ -69,9 +69,9 @@ int findKthLargest2(vector<int>& nums, int k)
     }
 }
 
-int main(int argc, const char * argv[]) 
+int main() 
 {
-    vector<int> nums = {3,5,1,2,6,4};
+    vector<int> nums(3);
     int res=findKthLargest2(nums, 2);
     std::cout << res;
     return 0;
