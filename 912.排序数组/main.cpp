@@ -60,7 +60,7 @@ vector<int> sortArray(vector<int>& nums) {
 
 
 int main(int argc, const char * argv[]) {
-    vector<int> nums={3,5,1,2,4};
+    vector<int> nums;
     //int res=partition(nums,0,4);
     sortArray(nums);
     return 0;
