@@ -6,7 +6,7 @@ int maxProfit(vector<int>& prices)
     {
         return 0;
     }
-    vector<vector<int>> dp(prices.size(),vector<int>(1));
+    vector<vector<int>> dp(prices.size(),vector<int>(2));
     dp[0][0]=0;
     dp[0][1]=-prices[0];
     for(int i=1;i<prices.size();i++)
